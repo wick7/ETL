@@ -37,10 +37,10 @@ var mysqQ = mysql.query("SELECT SUM(quantity) AS ItemsPurchased, AVG(oz_size) AS
 
 
 //Montly Table
-// ItemsPurchased: 14,
-// AverageOZSize: 2.894285714285714,
-// TotalPricePurchased: 91.6
-// MonthYear: '01/2020'
+// total_items_purchased: 14,
+// average_oz_size: 2.894285714285714,
+// total_amount_spent: 91.6
+// month_year: '01/2020'
 
 //Grand Total Table
 // ItemsPurchased: 177,
